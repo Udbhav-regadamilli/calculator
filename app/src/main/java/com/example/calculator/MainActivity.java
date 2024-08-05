@@ -158,7 +158,6 @@ public class MainActivity extends AppCompatActivity {
                     input = "-"+newOutput + "";
                 }
             }catch (Exception e){
-                //outputText.setError(e.getMessage().toString());
                 msg(e);
             }
         }
@@ -172,7 +171,6 @@ public class MainActivity extends AppCompatActivity {
                 outputText.setText(newOutput);
                 input = newOutput + "";
             }catch (Exception e){
-                //outputText.setError(e.getMessage().toString());
                 msg(e);
             }
         }
